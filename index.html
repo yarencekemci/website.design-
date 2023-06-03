@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cafe</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  
+  
+
+  <body>
+    <!--! header section start-->
+    <header class="header">
+      <a href="#" class="logo"  > 
+        <img src="images/logo.jpg" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#menu" >Menu</a>
+        <a href="#about" >About</a>
+        <a href="#contact" >Contact</a>
+        <a href="#blogs" >Blogs</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button id="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"> </i>
+        </button>
+      
+      </div>
+
+      <div class="search-form">
+        <input 
+        type="text" 
+        class="search-input" 
+        id="search-box" 
+        placeholder="search-here" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu1.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">65 TL</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu2.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">75 TL</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu3.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">65 TL</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu4.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">65 TL</div>
+          </div>
+        </div>
+        <a href="#" class="btn">check out now</a>
+      </div>
+    </header>
+    <!--! header section end-->
+   
+    <!--! home section start-->
+   <section class="home" id="home">
+    <div class="content">
+      <h3>SPECIAL DAY SPECIAL MEAL</h3>
+    <p>
+      Enjoy the taste of food in this special place. Extremely healthy snacks meet you with our menu with plenty of choices. 
+      We are happy to welcome you in our cafe restaurant where our coffee options are diverse.
+    </p>
+    <a href="#" class="btn">Order Now</a>
+    </div>
+   </section>
+   
+
+
+    <!--! home section end-->
+    <!--! menu section start-->
+    <section class="menu" id="menu">
+      <h1 class="heading">OUR <span>MENU</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head>">
+              <img src="images/menu1.jpg" alt="menu" />
+              <span class="box-bottom">SALAD</span>
+              <h3>BRUKSEL LAHANA SALATASI</h3>
+              <div class="price">65₺ <span>89.99₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head>">
+              <img src="images/menu2.jpg" alt="menu" />
+              <span class="box-bottom">PASTE</span>
+              <h3>PEYNIRLI BALKABAGI EZMESI</h3>
+              <div class="price">75₺ <span>99.99₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head>">
+              <img src="images/menu3.jpg" alt="menu" />
+              <span class="box-bottom">PASTA</span>
+              <h3>TULUM PEYNİRLİ MAKARNA</h3>
+              <div class="price">65₺ <span>89.99₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head>">
+              <img src="images/menu4.jpg" alt="menu" />
+              <span class="box-bottom">SOUP</span>
+              <h3>TAVUKLU KEREVİZ CORBASI</h3>
+              <div class="price">65₺ <span>89.99₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--! menu section end-->
+    <!--! products section start-->
+        <section class="products" id="products">
+          <h1 class="heading">OUR <span>PRODUCTS</span></h1>
+          <div class="box-container">
+            <div class="box">
+              <div class="box-head">
+                <span class="title">DESSERT</span>
+                <a href="#" class="name">PISMANIYELI KIVILI KUP</a>
+              </div>
+              <div class="image">
+                <img src="images/ürün1.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">60₺</b>
+                  <span class="amount">200 ml</span>
+                </div>
+                <div class="product-btn">
+                  <a href="#">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="box-container">
+              <div class="box">
+                <div class="box-head">
+                  <span class="title">PASTRY</span>
+                  <a href="#" class="name">PATATESLİ PEYNİRLİ BÖREK</a>
+                </div>
+                <div class="image">
+                  <img src="images/ürün2.jpg" alt="" />
+                </div>
+                <div class="box-bottom">
+                  <div class="info">
+                    <b class="price">75₺</b>
+                    <span class="amount">6 adet</span>
+                  </div>
+                  <div class="product-btn">
+                    <a href="#">
+                      <i class="fas fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+  
+  
+              
+            </div>
+
+            <div class="box-container">
+              <div class="box">
+                <div class="box-head">
+                  <span class="title">SANDWICH</span>
+                  <a href="#" class="name">CIRPILMIS YUMURTALI SANDVIC</a>
+                </div>
+                <div class="image">
+                  <img src="images/ürün3.jpg" alt="" />
+                </div>
+                <div class="box-bottom">
+                  <div class="info">
+                    <b class="price">60₺</b>
+                    <span class="amount">2 adet</span>
+                  </div>
+                  <div class="product-btn">
+                    <a href="#">
+                      <i class="fas fa-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+  
+  
+              
+            </div>
+            
+          </div>
+        </section>
+
+    <!--! products section end-->
+
+    <!--! about section start-->
+    <section class="about" id="about">
+      <h1 class="heading">ABOUT <span>US</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="about" />
+        </div>
+        <div class="content">
+          <h3> Information about our restaurant</h3>
+          <p>We have restaurants in many central points. 
+            The service is open between 8.00 - 23.00 7 days a week.</p>
+          <p>Many kinds of healthy and hygienic meals are available in our restaurant. 
+            Our venue has an open and closed area. </p>
+          <p>We meet at our restaurant for you to taste the delicious dishes of our chefs.</p>
+          <p>As for dinner; The menu has taken a bit of flavor from all over the world. 
+          Nachos, Burritos from Mexico, Buffalo Chicken Wings from California, steak steak with a French classic Cafe de Paris sauce, Italian-style thin crust pizzas and fabulous Cheese Cakes.</p>
+          <p>Restaurant, which is the second address of everyone from seven to seventy, was awarded the most visited Cafe award by Boğaziçi University services twice.</p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+
+      </div>
+    </section>
+     
+
+    <!--! about section end-->
+
+    <!--! contact section start-->
+    <section class="contact" id="contact">
+      <h1 class="heading">CONTACT <span>US</span></h1>
+      <div class="row">
+        <iframe 
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48126.009310357185!2d28.987312610565!3d41.07171219921775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab63f6f8193f1%3A0x36c864a929a1018c!2zQmXFn2lrdGHFny_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1672580649321!5m2!1str!2str" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <h3>GET IN TOUCH</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name-surname" >
+          </div>
+
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email" >
+          </div>
+
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="phone" >
+          </div>
+
+          <input type="submit" class="btn" value="contact now">
+        </form>
+      </div>
+    </section>
+
+
+    <!--! contact section end-->
+
+    <!--! blogs section start-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">OUR <span>BLOG</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog (1).jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">RED GRAPE AND CHICKEN SALAD?</a>
+            <span>by ahmet chief/ 16 July 2022 </span>
+            <p>
+              When it comes to recipes, main dishes come to mind first. However, the recipes are divided into many groups such as soups, juicy dishes, meat dishes, chicken dishes, fish dishes, pastries, cakes, pastries, desserts, cookies, salads, pickles, breakfast foods and so on.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog (2).jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">STRAWBERRY MAGNOLIA CAKE?</a>
+            <span>by eylül chief/ 24 September 2022 </span>
+            <p>
+              We have compiled for you different, new, shaped and different cake recipes that are both delicious and beautifully presented.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog (3).jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">BANOFEE PIE?</a>
+            <span>by hayriye chef/ 2 October 2022 </span>
+            <p>
+              When we eat chocolate, we feel happy. Our practical and delicious chocolate and banana dessert recipes will blow your mind. You will have fun while doing it and you will earn praise with its presentation.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! blogs section end-->
+
+    <script src="js/script.js"></script>
+
+
+  
+
+  </body>
+</html>
